@@ -1,10 +1,10 @@
 # MLOps-Credit-card-fraud-detection-system
 
-# **Problem Statement:**
+## **Problem Statement:**
 
 **Cloud-Based Credit Card Fraud Detection** aims to leverage machine learning algorithms and cloud infrastructure to identify fraudulent credit card transactions in real-time. Credit card fraud remains one of the most significant challenges in the global fintech industry, with billions of dollars lost annually to fraudulent activities. Traditional fraud detection methods often struggle to keep up with the ever-evolving tactics of fraudsters. This project focuses on creating an efficient, scalable, and accurate fraud detection system using data science and cloud-based technologies. By deploying the model on cloud platforms like AWS, the system will be capable of handling large volumes of transactions, providing real-time detection, and scaling seamlessly to meet increasing demands. The project will involve dataset exploration, feature engineering, machine learning model development, and deployment on cloud services such as AWS SageMaker and Lambda.
 
-🔧 Tools and resources required
+## 🔧 Tools and resources required
 | **Category** | **Tool/Service** | **Description** | **Free Tier** |
 | --- | --- | --- | --- |
 | **AWS Services** | **AWS S3 (Storage)** | Used to store the dataset for training and testing the model. | 5GB of standard storage. |
