@@ -1,4 +1,4 @@
-# MLOps-Credit-card-fraud-detection-system
+# MLOps based Credit Card Fraud Detection System
 
 ## **Problem Statement:**
 
