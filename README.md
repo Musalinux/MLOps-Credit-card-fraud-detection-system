@@ -21,6 +21,7 @@
 | **Data Sources** | **Kaggle Credit Card Fraud Detection Dataset** | A publicly available dataset with labeled transaction data for fraud detection. | Free access (requires a Kaggle account). |
 
 
+### Model Outcome: 
 ```bash
 y_pred = model.predict(X_test)
 
@@ -28,7 +29,9 @@ print("Classification Report:\n", classification_report(y_test, y_pred))
 print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred))
 print("ROC AUC Score:", roc_auc_score(y_test, y_pred))
 ````
-     
+
+### Current Output: 
+```` bash
 Classification Report:
                precision    recall  f1-score   support
 
@@ -43,3 +46,4 @@ Confusion Matrix:
  [[56763    14]
  [    2 28516]]
 ROC AUC Score: 0.9998416450672509
+````
