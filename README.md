@@ -19,3 +19,25 @@
 |  | **Matplotlib & Seaborn** | For visualizing the dataset and model results. | Free to use. |
 | **Data Science & Development Environment** | **Jupyter Notebooks or Google Colab** | For exploratory data analysis (EDA), preprocessing, and prototyping machine learning models. | Google Colab is free and provides a Python environment with GPUs if needed. |
 | **Data Sources** | **Kaggle Credit Card Fraud Detection Dataset** | A publicly available dataset with labeled transaction data for fraud detection. | Free access (requires a Kaggle account). |
+
+
+y_pred = model.predict(X_test)
+
+print("Classification Report:\n", classification_report(y_test, y_pred))
+print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred))
+print("ROC AUC Score:", roc_auc_score(y_test, y_pred))
+     
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     56777
+           1       1.00      1.00      1.00     28518
+
+    accuracy                           1.00     85295
+   macro avg       1.00      1.00      1.00     85295
+weighted avg       1.00      1.00      1.00     85295
+
+Confusion Matrix:
+ [[56763    14]
+ [    2 28516]]
+ROC AUC Score: 0.9998416450672509
